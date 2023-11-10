@@ -21,7 +21,6 @@ struct node* last = NULL;
 		temp->next = last->next;
 		last->next = temp;
 	}
-	insertAtFront(30);
 	viewList();
 	return 0;
 }
