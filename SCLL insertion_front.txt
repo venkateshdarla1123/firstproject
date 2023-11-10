@@ -22,21 +22,6 @@ struct node* last = NULL;
 		last->next = temp;
 	}
 }
-void viewList()
-{
-	if (last == NULL)
-		printf("\nList is empty\n");
-	else 
-	{
-		struct node* temp;
-		temp = last->next;
-		do 
-		{
-			printf("\nData = %d", temp->in);
-			temp = temp->next;
-		} while (temp != last->next);
-	}
-}
 int main()
 {
 	insertAtFront(10);
