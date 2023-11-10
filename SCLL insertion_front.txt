@@ -1,11 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct node 
-{
-	int in;
-
-	struct node* next;
-};
 struct node* last = NULL;
 	struct node* temp;
 	temp = (struct node*)malloc(sizeof(struct node));
